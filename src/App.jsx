@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Finder from './components/Finder';
 import PokemonCard from './components/PokemonCard';
-import './styles.css'; // Estilos específicos de la aplicación
+import './styles.css'; 
 
 function App() {
   const [pokemonData, setPokemonData] = useState(null);
